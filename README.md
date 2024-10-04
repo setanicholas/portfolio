@@ -1,9 +1,9 @@
 
 markdown_content = """
-# Nicholas S. - Finance & Technology Executive
+# Nicholas Seta - Finance & Technology Professional
 
 **Location**: Exeter, NH  
-**Professional Email**: [Contact me](seta.nicholas@gmail.com)  
+**Email**: [Contact me](seta.nicholas@gmail.com)  
 **GitHub**: [github.com/NicholasSeta](https://github.com/setanicholas)  
 [LinkedIn](https://www.linkedin.com/in/nicholasseta)
 

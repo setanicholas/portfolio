@@ -3,7 +3,7 @@ markdown_content = """
 # Nicholas Seta - Finance & Technology Professional
 
 **Location**: Exeter, NH  
-**Email**: [Contact me](mailto:seta.nicholas@gmail.com)  
+**Email**: [seta.nicholas@gmail.com]
 **GitHub**: [github.com/NicholasSeta](https://github.com/setanicholas)  
 [LinkedIn](https://www.linkedin.com/in/nicholasseta)
 

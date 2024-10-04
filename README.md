@@ -10,9 +10,9 @@ markdown_content = """
 ---
 
 ## 🚀 Professional Summary
-Dynamic and results-driven **Finance & Technology Executive** with extensive experience leading transformative technology roadmaps and driving business growth through data-driven decision-making. I specialize in scaling financial systems, implementing robust IT governance, and architecting cutting-edge business intelligence platforms for global enterprises.
+Dynamic and results-driven **Finance & Technology Professional** with extensive experience leading transformative technology roadmaps and driving business growth through data-driven decision-making. I specialize in scaling financial systems, implementing robust IT governance, and architecting cutting-edge business intelligence platforms for global enterprises.
 
-Known for my strategic vision, technical expertise, and hands-on leadership in high-stakes environments, I excel in creating systems that empower executive teams and deliver long-term value to stakeholders. My technical acumen spans **Python, SQL, Snowflake, JavaScript**, and **ERP platforms**, enabling me to bridge the gap between finance and IT with ease.
+Known for my vision, technical expertise, and hands-on leadership in high-stakes environments, I excel in creating systems that empower executive teams and deliver long-term value to stakeholders. My technical acumen spans **Python, SQL, Snowflake, JavaScript**, **ERP platforms**, and **Financial Modeling**, enabling me to bridge the gap between finance and IT with ease.
 
 ---
 
@@ -34,7 +34,7 @@ This SQL view was designed to handle complex revenue forecasts, incorporating mu
 
 - **Orchestrated a scalable financial systems architecture** by eliminating technical debt, optimizing ERP integrations, and aligning them with long-term growth objectives.
 - **Spearheaded a cutting-edge data analytics pipeline** leveraging **Snowflake, Power BI**, and **Python** to deliver critical insights that empowered C-suite executives to make informed business decisions.
-- Led the integration of **8 M&A acquisitions** across a global portfolio of over 100 subsidiaries, managing multi-currency transactions across 20 foreign entities.
+- Develop ERP integration playbook for **8 M&A acquisitions**. These companies integrated into a NetSuite instance consisting of over 100 subsidiaries with multi-currency transactions across 20 foreign entities.
 - Championed **IT Governance best practices**, ensuring a balance between operational flexibility and data security.
 
 ### **NetSuite Administrator**  
@@ -93,8 +93,6 @@ I am passionate about leveraging data to drive decision-making at scale and usin
 ---
 
 ## 📫 Get in Touch
-
-I am always open to exploring new opportunities where I can drive significant impact and deliver value at scale. Feel free to reach out for consulting, collaborations, or executive opportunities.
 
 *Please contact me through my professional email for additional details regarding my portfolio and references.*
 

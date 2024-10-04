@@ -16,6 +16,16 @@ Known for my strategic vision, technical expertise, and hands-on leadership in h
 
 ---
 
+## 💻 Featured Code: Revenue Planning SQL Script
+
+One of my notable contributions includes the development of a highly optimized SQL script for **Revenue Planning** used to streamline and automate financial forecasting processes across multiple entities. You can check out the file in my portfolio:
+
+**File**: [`REV_PLAN_VIEW.sql`](assets/REV_PLAN_VIEW.sql)
+
+This SQL view was designed to handle complex revenue forecasts, incorporating multi-currency, multi-subsidiary data from over 100 entities. It's a core component of our automated financial reporting infrastructure.
+
+---
+
 ## 💼 Experience
 
 ### **ERP Team Lead**  

@@ -20,7 +20,7 @@ BEGIN
 
     -- Create or replace the main table for revenue plan view
     CREATE OR REPLACE TABLE SB_ERPTEAM.PUBLIC.T_REVPLANVIEW_MAIN AS
-
+// Testy McTestFace
     SELECT DISTINCT
         rp.ID AS RevenuePlanID, -- Revenue plan ID
         rp.ITEM AS RevenuePlanITEM, -- Item associated with the revenue plan

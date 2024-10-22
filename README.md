@@ -5,14 +5,13 @@ markdown_content = """
 **Location**: Exeter, NH  
 **Email**: [seta.nicholas@gmail.com](mailto:seta.nicholas@gmail.com)  
 **GitHub**: [github.com/NicholasSeta](https://github.com/setanicholas)  
-[LinkedIn](https://www.linkedin.com/in/nicholasseta)
+**LinkedIn**: [LinkedIn](https://www.linkedin.com/in/nicholasseta)
 
 ---
 
 ## 🚀 Professional Summary
-Dynamic and results-driven **Finance & Technology Professional** with extensive experience leading transformative technology roadmaps and driving business growth through data-driven decision-making. I specialize in scaling financial systems, implementing robust IT governance, and architecting cutting-edge business intelligence platforms for global enterprises.
 
-Known for my vision, technical expertise, and hands-on leadership in high-stakes environments, I excel in creating systems that empower executive teams and deliver long-term value to stakeholders. My technical acumen spans **Python, SQL, Snowflake, JavaScript**, **ERP platforms**, and **Financial Modeling**, enabling me to bridge the gap between finance and IT with ease.
+Nick has built or transformed Finance and IT functions three times, leveraging approaches refined over five years of experience in finance and technology. His experience spans companies ranging from a $1 million privately owned construction company to a $500 million-plus private equity-backed software company. Nick specializes in implementing processes that increase the capacity of IT and Finance to deliver cost-optimized solutions that enhance company valuation. His achievements include leading a team through 8 M&A integrations involving 2,000 employees and 20,000 customer accounts, reducing consultant spend by over $500,000 per year, configuring 2 data warehouses, and supporting the implementation of over 10 enterprise applications. Known for his technical expertise in both computer science and finance, Nick excels at creating systems that empower executive teams and deliver long-term value to stakeholders.
 
 ---
 
@@ -41,7 +40,7 @@ This SQL view was designed to handle complex revenue forecasts, incorporating mu
 *Insightsoftware*  
 **February 2022 – September 2023**
 
-- Rapidly gained mastery over a broad technology stack, including **Salesforce, Boomi**, and **OpenAir**, leading to **$400k+ in annual cost savings** by reducing external consultant dependency.
+- Rapidly gained mastery over a broad technology stack, including **Salesforce, Boomi**, and **OpenAir**, leading to **$500k+ in annual cost savings** by reducing external technical consultant dependency.
 - Enhanced internal systems, fostering a 40% improvement in project delivery timelines by optimizing workflows and prioritizing key projects in change control meetings.
 
 ### **Financial Analyst & NetSuite Administrator**  

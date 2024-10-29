@@ -11,11 +11,14 @@ markdown_content = """
 
 ## 🚀 Professional Summary
 
-Nick has built or transformed Finance and IT functions three times, leveraging approaches refined over five years of experience in finance and technology. His experience spans companies ranging from a $1 million privately owned construction company to a $500 million-plus private equity-backed software company. Nick specializes in implementing processes that increase the capacity of IT and Finance to deliver cost-optimized solutions that enhance company valuation. His achievements include leading a team through 8 M&A integrations involving 2,000 employees and 20,000 customer accounts, reducing consultant spend by over $500,000 per year, configuring 2 data warehouses, and supporting the implementation of over 10 enterprise applications. Known for his technical expertise in both computer science and finance, Nick excels at creating systems that empower executive teams and deliver long-term value to stakeholders.
+Nick has helped build and transform the Finance and IT functions three times, leveraging approaches refined over five years of experience in finance and technology. His experience spans companies ranging from a $1 million privately owned construction company to a $500 million-plus private equity-backed software company. Nick specializes in implementing processes that increase the capacity of IT and Finance to deliver cost-optimized solutions that enhance company valuation. His achievements include leading a team through 8 separate M&A integrations involving 2,000 employees and 20,000 customer accounts, reducing consultant spend by over $500,000 per year, configuring 2 data warehouses, and supporting the implementation of over 10 enterprise applications. Known for his technical expertise in both computer science and finance, Nick excels at creating financial systems that empower companies and deliver long-term value to stakeholders.
 
 ---
 
-## 💻 Featured Code: Balance Sheet 
+## 💻 Featured Code: 
+
+**Balance Sheet** 
+
 **File**: [`Balance_Sheet.sql`](https://github.com/setanicholas/portfolio/blob/main/assets/sql/T_COLLECTIONS_AT_RISK.sql)
 
 The provided code creates a stored procedure (USP_BALANCESHEET) that generates a balance sheet summary by creating a table called T_BALANCESHEET. The table aggregates financial data from several NetSuite data tables, including TRANSACTIONACCOUNTINGLINE, ACCOUNT, and TRANSACTION. The procedure performs the following key functions:
@@ -43,7 +46,9 @@ This process is suitable for automating balance sheet generation for different f
 
 ---
 
-## 💻 Featured Code: Revenue Planning
+## 💻 Featured Code: 
+
+**Revenue Planning**
 
 One of my notable contributions includes the development of a highly optimized SQL script for **Revenue Planning** used to streamline and automate financial forecasting processes across multiple entities. You can check out the file in my portfolio:
 

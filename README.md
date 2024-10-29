@@ -1,5 +1,4 @@
 
-markdown_content = """
 # Nicholas Seta - Finance & Technology Professional
 
 **Location**: Exeter, NH  

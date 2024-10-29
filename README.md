@@ -18,7 +18,7 @@ Nick has helped build and transform the Finance and IT functions three times, le
 
 **Balance Sheet** 
 
-**File**: [`Balance_Sheet.sql`](https://github.com/setanicholas/portfolio/blob/main/assets/sql/T_COLLECTIONS_AT_RISK.sql)
+**File**: [`Balance_Sheet.sql`](https://github.com/setanicholas/portfolio/blob/main/assets/sql/BALANCE_SHEET.sql)
 
 The provided code creates a stored procedure (USP_BALANCESHEET) that generates a balance sheet summary by creating a table called T_BALANCESHEET. The table aggregates financial data from several NetSuite data tables, including TRANSACTIONACCOUNTINGLINE, ACCOUNT, and TRANSACTION. The procedure performs the following key functions:
 

@@ -20,28 +20,7 @@ Dynamic senior financial systems manager with a strong blend of financial acumen
 
 **File**: [`Balance_Sheet.sql`](https://github.com/setanicholas/portfolio/blob/main/assets/sql/BALANCE_SHEET.sql)
 
-The provided code creates a stored procedure (USP_BALANCESHEET) that generates a balance sheet summary by creating a table called T_BALANCESHEET. The table aggregates financial data from several NetSuite data tables, including TRANSACTIONACCOUNTINGLINE, ACCOUNT, and TRANSACTION. The procedure performs the following key functions:
-
-Data Aggregation for Balance Sheet Accounts:
-
-Queries and aggregates information about all accounts (AllAccounts) including general ledger amounts (GLAmount), account details, subsidiary, currency, and transaction metadata.
-Includes data for specific transaction types and account hierarchies, considering exchange rates when converting amounts to USD.
-Handling Retained Earnings:
-
-Separately calculates retained earnings (RetainedEarnings) as they are handled differently from other account types.
-Net Income and Retained Earnings for Specific Periods:
-
-Defines placeholder views (PeriodAccountsNetIncome and PeriodAccountsRetainedEarnings) to account for net income and retained earnings for specific fiscal periods and subsidiaries.
-Combining Results:
-
-Combines the data from all defined subqueries into a comprehensive balance sheet table using a union (UNION ALL) operation.
-Fiscal Year Calculation Function:
-
-Defines a JavaScript function (GetFiscalYear) to determine the fiscal year based on the date, specifically considering that the fiscal year starts in April.
-The overall purpose of this procedure is to create a comprehensive balance sheet that aggregates and standardizes financial data for various periods, accounts, and subsidiaries, allowing for detailed financial analysis for the ERP system. 
-
-This process is suitable for automating balance sheet generation for different fiscal years and subsidiaries, making it highly relevant for managing financial portfolios across a company's global operations.
-
+The provided stored procedure (USP_BALANCESHEET) automates the creation of a comprehensive balance sheet summary by aggregating and standardizing financial data from NetSuite tables, including handling currency conversions and specific account types such as retained earnings. It calculates net income and retained earnings separately, integrating results through union operations to support detailed financial analysis across subsidiaries and fiscal periods. Additionally, it utilizes a JavaScript function (GetFiscalYear) to accurately determine fiscal years beginning in April, making it ideal for managing global financial portfolios within ERP systems.
 
 ---
 
@@ -49,11 +28,14 @@ This process is suitable for automating balance sheet generation for different f
 
 **Revenue Planning**
 
-One of my notable contributions includes the development of a highly optimized SQL script for **Revenue Planning** used to streamline and automate financial forecasting processes across multiple entities. You can check out the file in my portfolio:
+One recent contributions includes the development of a highly optimized python script for **Tax Reporting** used to streamline and automate reporting and team processes. I leveraged NetSuite RESTLets to gather real time data from NetSuite necessary for this project. 
 
-**File**: [`REV_PLAN_VIEW.sql`](https://github.com/setanicholas/portfolio/blob/main/assets/sql/T_COLLECTIONS_AT_RISK.sql)
+**File**: [`NetSuite_RESTLet_report.py`](https://github.com/setanicholas/portfolio/blob/main/assets/python/netsuite_restlet_report.py)
 
-This SQL view was designed to handle complex revenue forecasts, incorporating multi-currency, multi-subsidiary data from over 100 entities. It's a core component of our automated financial reporting infrastructure.
+This project automates data extraction from NetSuite using OAuth-authenticated REST APIs, transforms and analyzes the retrieved financial data using Pandas and SQL queries, and systematically generates Excel and CSV reports. It includes detailed exception handling and data validation, ensuring accurate reporting for investment portfolios and K-1 tax documentation.
+
+
+
 
 ---
 

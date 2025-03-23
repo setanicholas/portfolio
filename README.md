@@ -59,6 +59,7 @@ This NetSuite User Event script automates control of tax calculation on records 
 
 ### **Senior Financial Systems Manager**  
 *Alumni Ventures* | 3 Mos | Venture Capital | Privatly Held
+
 **January 2025 – Present**
 - **Reporting directly to CFO,** serve as the primary technical architect and finance systems lead for a $1.4B AUM venture capital firm, overseeing design, development, and deployment of NetSuite customizations and 3rd-party integrations.
 - Quickly onboard and **develop SuiteScript & Python customizations** (including fields, forms, and workflows) to integrate complex tax reporting processes, reducing manual workload by 300 hours annually.
@@ -66,6 +67,7 @@ This NetSuite User Event script automates control of tax calculation on records 
 
 ### **ERP Team Lead**  
 *insightsoftware* | 3 yrs | SaaS & Professional Services | Private Equity-backed  
+
 **September 2023 – January 2025**
 - **Orchestrated a scalable financial systems architecture** by eliminating technical debt, optimizing ERP integrations, and aligning them with long-term growth objectives.
 - **Spearheaded a cutting-edge data analytics pipeline** leveraging **Snowflake, Power BI**, and **Python** to deliver critical insights that empowered C-suite executives to make informed business decisions.
@@ -74,6 +76,7 @@ This NetSuite User Event script automates control of tax calculation on records 
 
 ### **NetSuite Administrator**  
 *Insightsoftware*  
+
 **February 2022 – September 2023**
 - Rapidly gained mastery over a broad technology stack, including **Salesforce, Boomi**, and **OpenAir**, leading to **$500k+ in annual cost savings** by reducing external technical consultant dependency.
 - Enhanced internal systems, fostering a 40% improvement in project delivery timelines by optimizing workflows and prioritizing key projects in change control meetings.
@@ -81,6 +84,7 @@ This NetSuite User Event script automates control of tax calculation on records 
 
 ### **Financial Analyst & NetSuite Administrator**  
 *Infinity Massage Chairs* | 4 yrs 10 mos | Wholesale Distribution | Privatly Held
+
 **May 2017 – February 2022**
 - Reported directly to the CFO, implementing and automating critical financial and operational processes through **SQL, Excel Macros**, and **Power BI**.
 - Drove the company-wide **NetSuite implementation**, enhancing efficiency and delivering comprehensive business intelligence to support executive decision-making.

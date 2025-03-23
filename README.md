@@ -6,13 +6,19 @@
 **GitHub**: [github.com/NicholasSeta](https://github.com/setanicholas)  
 **LinkedIn**: [LinkedIn](https://www.linkedin.com/in/nicholasseta)
 
+
+
 ---
+
+
 
 ## 🚀 Professional Summary
 
 Dynamic senior financial systems manager with a strong blend of financial acumen and technical expertise. Proven track record in leveraging advanced applications (NetSuite, Salesforce, Concur, Snowflake), integration platforms (Boomi, Celigo), and technical skills (SuiteScript, Python, SQL) to streamline operations and drive measurable business growth. Successfully led financial systems teams through 8 complex M&A integrations, 6 enterprise application implementations, and 3 data warehouse/BI initiatives, delivering significant efficiency gains and enhanced reporting capabilities.
 
+
 ---
+
 
 ## 💻 Featured Code: 
 
@@ -32,7 +38,7 @@ One recent contributions includes the development of a highly optimized python s
 
 This project automates data extraction from NetSuite using OAuth-authenticated REST APIs, transforms and analyzes the retrieved financial data using Pandas and SQL queries, and systematically generates Excel and CSV reports. It includes detailed exception handling and data validation, ensuring accurate reporting for investment portfolios and K-1 tax documentation.
 
---
+---
 
 **Disable Tax Calculations in NetSuite**
 
@@ -44,6 +50,8 @@ This NetSuite User Event script automates control of tax calculation on records 
 
 
 ---
+
+
 
 
 ## 💼 Experience
@@ -77,7 +85,11 @@ This NetSuite User Event script automates control of tax calculation on records 
 - Reported directly to the CFO, implementing and automating critical financial and operational processes through **SQL, Excel Macros**, and **Power BI**.
 - Drove the company-wide **NetSuite implementation**, enhancing efficiency and delivering comprehensive business intelligence to support executive decision-making.
 
+
+
 ---
+
+
 
 ## 🎓 Education
 
@@ -93,7 +105,11 @@ Saint Joseph’s College of Maine | Standish, Maine
 - 4-Year Varsity Soccer Player  
 - Recipient of the **Unsung Hero Award**, later renamed in my honor
 
+
+
 ---
+
+
 
 ## 🛠️ Core Competencies
 
@@ -108,7 +124,11 @@ Saint Joseph’s College of Maine | Standish, Maine
 - **Cloud & Data Infrastructure**  
   AWS, Data Lakes, Automation, Scalability
 
+
+
 ---
+
+
 
 ## 🔥 About Nick: Data, Finance, and Life in the Granite State
 

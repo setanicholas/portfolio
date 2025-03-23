@@ -32,14 +32,16 @@ One recent contributions includes the development of a highly optimized python s
 
 This project automates data extraction from NetSuite using OAuth-authenticated REST APIs, transforms and analyzes the retrieved financial data using Pandas and SQL queries, and systematically generates Excel and CSV reports. It includes detailed exception handling and data validation, ensuring accurate reporting for investment portfolios and K-1 tax documentation.
 
+--
 
-**NetSuite Data Extraction Reporting**
+**Disable Tax Calculations in NetSuite**
 
-One recent contributions includes the development of a highly optimized python script for **Tax Reporting** used to streamline and automate reporting and team processes. I leveraged NetSuite RESTLets to gather real time data from NetSuite necessary for this project. 
+This NetSuite User Event script automatically controls the activation of tax calculations on records based on creation status, field changes, and posting period conditions. Its value lies in streamlining tax processing, reducing manual effort, preventing calculation errors, and enhancing compliance and auditability through clear logging and automation.
 
-**File**: [`netsuite_data_extraction_reporting.py`](https://github.com/setanicholas/portfolio/blob/main/assets/python/netsuite_data_extraction_reporting.py)
+**File**: [`disable_tax_calculations.js`](https://github.com/setanicholas/portfolio/blob/main/assets/suitescript/disable_tax_calculations.js)
 
-This project automates data extraction from NetSuite using OAuth-authenticated REST APIs, transforms and analyzes the retrieved financial data using Pandas and SQL queries, and systematically generates Excel and CSV reports. It includes detailed exception handling and data validation, ensuring accurate reporting for investment portfolios and K-1 tax documentation.
+This NetSuite User Event script automates control of tax calculation on records by setting a custom field (custbody_ava_disable_tax_calculation) based on specific business logic. When a record is newly created, it allows tax calculation by default. For edited records, the script checks if the posting period is open, and whether relevant fields (total amount or istaxable status) have changed; if so, it enables tax calculation. Detailed debug logs throughout provide transparency into its decision-making, ensuring accuracy and traceability in financial processing.
+
 
 ---
 
@@ -48,14 +50,14 @@ This project automates data extraction from NetSuite using OAuth-authenticated R
 
 
 ### **Senior Financial Systems Manager**  
-*Alumni Ventures* | SaaS & Professional Services | Private Equity-backed
+*Alumni Ventures* | 3 Mos | Venture Capital | Privatly Held
 **January 2025 – Present**
 - **Reporting directly to CFO,** serve as the primary technical architect and finance systems lead for a $1.4B AUM venture capital firm, overseeing design, development, and deployment of NetSuite customizations and 3rd-party integrations.
 - Quickly onboard and **develop SuiteScript & Python customizations** (including fields, forms, and workflows) to integrate complex tax reporting processes, reducing manual workload by 300 hours annually.
 
 
 ### **ERP Team Lead**  
-*insightsoftware* | SaaS & Professional Services | Private Equity-backed  
+*insightsoftware* | 3 yrs | SaaS & Professional Services | Private Equity-backed  
 **September 2023 – January 2025**
 - **Orchestrated a scalable financial systems architecture** by eliminating technical debt, optimizing ERP integrations, and aligning them with long-term growth objectives.
 - **Spearheaded a cutting-edge data analytics pipeline** leveraging **Snowflake, Power BI**, and **Python** to deliver critical insights that empowered C-suite executives to make informed business decisions.
@@ -65,15 +67,13 @@ This project automates data extraction from NetSuite using OAuth-authenticated R
 ### **NetSuite Administrator**  
 *Insightsoftware*  
 **February 2022 – September 2023**
-
 - Rapidly gained mastery over a broad technology stack, including **Salesforce, Boomi**, and **OpenAir**, leading to **$500k+ in annual cost savings** by reducing external technical consultant dependency.
 - Enhanced internal systems, fostering a 40% improvement in project delivery timelines by optimizing workflows and prioritizing key projects in change control meetings.
 
 
 ### **Financial Analyst & NetSuite Administrator**  
-*Infinity Massage Chairs* | Wholesale Distribution  
+*Infinity Massage Chairs* | 4 yrs 10 mos | Wholesale Distribution | Privatly Held
 **May 2017 – February 2022**
-
 - Reported directly to the CFO, implementing and automating critical financial and operational processes through **SQL, Excel Macros**, and **Power BI**.
 - Drove the company-wide **NetSuite implementation**, enhancing efficiency and delivering comprehensive business intelligence to support executive decision-making.
 
@@ -98,7 +98,7 @@ Saint Joseph’s College of Maine | Standish, Maine
 ## 🛠️ Core Competencies
 
 - **Financial Systems Architecture**  
-  ERP Optimization, M&A Integrations, Data Governance
+  ERP Optimization, NetSuite Customizations and Integrations, Data Governance
 - **Advanced Analytics & BI**  
   Snowflake, Power BI, Python, SQL, JavaScript
 - **Leadership & Strategic Management**  
@@ -106,7 +106,7 @@ Saint Joseph’s College of Maine | Standish, Maine
 - **Project Management**  
   Budgeting & Forecasting, Vendor Management, Stakeholder Alignment
 - **Cloud & Data Infrastructure**  
-  AWS, Azure, Data Lakes, Automation, Scalability
+  AWS, Data Lakes, Automation, Scalability
 
 ---
 

@@ -7,7 +7,6 @@ import hmac
 import base64
 import pandas as pd
 import requests
-##import streamlit as st
 from pandasql import sqldf
 from dotenv import load_dotenv
 import os
@@ -15,7 +14,7 @@ from io import BytesIO
 from datetime import datetime
 
 # ----------------------------------------------------------------------------
-# 1. Load Environment Variables
+# 1. Load Environment Variables (Ensure your .env file is excluded via .gitignore)
 # ----------------------------------------------------------------------------
 load_dotenv()
 
@@ -33,9 +32,9 @@ BASE_URL = f'https://{ACCOUNT_ID}.restlets.api.netsuite.com/app/site/hosting/res
 HTTP_METHOD = 'GET'
 
 NETSUITE_SCRIPT_IDS = {
-    "demo_main": "0001",
-    "demo_k1s": "0002",
-    "demo_entities": "0003"
+    "demo_main": "1054",
+    "demo_k1s": "1055",
+    "demo_entities": "1057"
 }
 
 # ----------------------------------------------------------------------------
@@ -74,9 +73,8 @@ def generate_signature(base_url, http_method, oauth_nonce, oauth_timestamp, scri
 def build_oauth_header(script_id):
     oauth_nonce = get_auth_nonce()
     oauth_timestamp = int(time.time())
-
     oauth_signature = generate_signature(BASE_URL, HTTP_METHOD, oauth_nonce, oauth_timestamp, script_id)
-
+    
     return (
         f'OAuth realm="{NETSUITE_REALM}",'
         f'oauth_token="{TOKEN_ID}",'
@@ -92,7 +90,6 @@ def build_oauth_header(script_id):
 # 3. Fetch Data from NetSuite API
 # ----------------------------------------------------------------------------
 
-@st.cache_data
 def fetch_saved_search_results(script_id):
     query_params = f"script={script_id}&deploy={NETSUITE_DEPLOY_ID}"
     url = f"{BASE_URL}?{query_params}"
@@ -100,32 +97,26 @@ def fetch_saved_search_results(script_id):
         'Authorization': build_oauth_header(script_id),
         'Content-Type': 'application/json'
     }
-
     response = requests.get(url, headers=headers)
     response.raise_for_status()
     return pd.DataFrame(response.json())
 
 # ----------------------------------------------------------------------------
-# 4. Load Data from API Calls
+# 4. Load Data from API Calls (Replaced Streamlit UI with print statements)
 # ----------------------------------------------------------------------------
 
-st.title("K1 Processing App")
-
-progress_bar = st.progress(10)
-status_text = st.empty()
-
-status_text.text("🔄 Fetching data from NetSuite... This may take a few minutes.")
+print("K1 Processing App")
+print("🔄 Fetching data from NetSuite... This may take a few minutes.")
 
 try:
-    demo_main = fetch_saved_search_results(NETSUITE_SCRIPT_IDS["script1"])
-    demo_k1s = fetch_saved_search_results(NETSUITE_SCRIPT_IDS["script1"])
-    demo_entities = fetch_saved_search_results(NETSUITE_SCRIPT_IDS["script1"])
+    demo_main = fetch_saved_search_results(NETSUITE_SCRIPT_IDS["demo_main"])
+    demo_k1s = fetch_saved_search_results(NETSUITE_SCRIPT_IDS["demo_k1s"])
+    demo_entities = fetch_saved_search_results(NETSUITE_SCRIPT_IDS["demo_entities"])
 except Exception as e:
-    st.error(f"❌ Error fetching NetSuite data: {e}")
-    st.stop()
+    print(f"❌ Error fetching NetSuite data: {e}")
+    exit(1)
 
-progress_bar.progress(40)
-status_text.text("🛠️ Processing data and applying SQL transformations...")
+print("🛠️ Processing data and applying SQL transformations...")
 
 # ----------------------------------------------------------------------------
 # 5. SQL Query Processing
@@ -133,10 +124,62 @@ status_text.text("🛠️ Processing data and applying SQL transformations...")
 
 pysqldf = lambda q: sqldf(q, globals())
 
-
 query1 = """
-SELECT 
-    *
+SELECT DISTINCT
+    d."K1 KEY" AS "K1 KEY",
+    k."INVESTOR K1 ID" AS "K1 Identifier",
+    d."Assignment" AS "Demo Assignment",
+    d."Review for Transfer" AS "Review for Transfer",
+    d."Review for JTWROS" AS "Review for JTWROS",
+    d."Date Investment Criteria Complete" AS "Date Investment Criteria Complete",
+    d."Date of Fund Transfer" AS "Date of Fund Transfer",
+    d."Date of Subscription Agreement" AS "Date of Subscription Agreement",
+    d."Investment Accreditation Date" AS "Investment Accreditation Date",
+    d."Portal ID" AS "Portal ID",
+    d."IE Internal ID" AS "IE Internal ID",
+    d."Email" AS "Email",
+    d."Hubspot ID" AS "Hubspot ID",
+    d."First Name" AS "First Name",
+    d."MI" AS "MI",
+    d."Last Name" AS "Last Name",
+    d."Company Name" AS "Company Name",
+    d."Entity Name (37)" AS "Entity Name (37)",
+    d."Entity Name (cont)" AS "Entity Name (cont)",
+    d."Entity Type" AS "Entity Type",
+    d."Individual Sub Type" AS "Individual Sub Type",
+    d."Tax ID Country of Origin" AS "Tax ID Country of Origin",
+    d."Attention" AS "Attention",
+    d."Address 1" AS "Address 1",
+    d."Address 2" AS "Address 2",
+    d."City" AS "City",
+    d."State" AS "State",
+    d."Zip" AS "Zip",
+    d."Country" AS "Country",
+    d."Residential State" AS "Residential State",
+    d."Business Sub Type" AS "Business Sub Type",
+    d."Via Global Fund" AS "Via Global Fund",
+    d."Category" AS "Category",
+    d."Entity Code" AS "Entity Code",
+    d."K1 Tax ID" AS "K1 Tax ID",
+    d."Non-US Tax ID (Legacy)" AS "Non-US Tax ID (Legacy)",
+    d."Foreign-Domestic" AS "Foreign-Domestic",
+    d."Industry" AS "Industry",
+    d."Amount" AS "Amount",
+    d."Fund" AS "Fund",
+    k."Fund Legal Name" AS "Fund Legal Name",
+    d."Fund Name" AS "Fund Name",
+    d."Fund (No Hierarchy)" AS "Fund (No Hierarchy)",
+    d."Fund ID" AS "Fund ID",
+    k."Fund Start Date" AS "Fund Start Date",
+    d."Transfer In Date" AS "Transfer In Date",
+    e."Name" AS "Transfer In From Name",
+    d."Transfer In From" AS "Transfer In From",
+    d."Transfer Out Date" AS "Transfer Out Date",
+    d."Disregarded Entity" AS "Disregarded Entity",
+    d."Ultimate Owner Investor Name" AS "Ultimate Owner Investor Name",
+    d."Ultimate Owner SSN" AS "Ultimate Owner SSN",
+    k."K1 Assignment" AS "K1 Assignment",
+    k."Fund Status" AS "Fund Status"
 FROM demo_file d
 LEFT JOIN k1s_file k 
     ON d."K1 KEY" = k."NEW EXTERNAL ID" 
@@ -146,110 +189,77 @@ LEFT JOIN entities_file e
 
 result_df1 = pysqldf(query1)
 
-# Format the "Zip" column to ensure leading zeros are preserved for numeric values
 def format_zip(zip_value):
     if pd.isnull(zip_value):
-        return zip_value  # Keep null values as is
+        return zip_value
     try:
-        return f"{int(zip_value):05}"  # Format numeric zip codes with leading zeros
+        return f"{int(zip_value):05}"
     except ValueError:
-        return zip_value  # Return the original value if it's not numeric
+        return zip_value
 
 result_df1["Zip"] = result_df1["Zip"].apply(format_zip)
 
-# Debugging: Display intermediate DataFrame
 print("Result of Query 1:")
 print(result_df1.head())
 print(result_df1.info())
 
-# Python filtering for Query 2 logic
-exclude_statuses = ['Final1', 'Final2', 'Do not Issue', 'Never Issued']
+exclude_statuses = ['Final 2022', 'Final 2023', 'Do not Issue K-1', 'Never Issued K-1']
 result_df2 = result_df1[
-    (~result_df1["Fund Status"].str.lower().isin([s.lower() for s in exclude_statuses])) &  # Exclude specific statuses
-    (result_df1["Assignment"] != "Final") & # Additional condition
-    (result_df1["KEY"] != "Total")  # Additional condition
-
+    (~result_df1["Fund Status"].str.lower().isin([s.lower() for s in exclude_statuses])) &
+    (result_df1["K1 Assignment"] != "Final in prior year") &
+    (result_df1["K1 KEY"] != "Overall Total")
 ]
 
-# Python filtering for the inverse of Query 2 logic
-include_statuses = ['Final', 'Final', 'Do not Issue', 'Never Issued']
+include_statuses = ['Final 2022', 'Final 2023', 'Do not Issue K-1', 'Never Issued K-1']
 inverse_result_df2 = result_df1[
-    (result_df1["Fund Status"].str.lower().isin([s.lower() for s in include_statuses])) |  # Include specific statuses
-    (result_df1["Assignment"] == "Final in prior year") |  # Include this condition
-    (result_df1["KEY"] == "Overall Total")  # Include this condition
+    (result_df1["Fund Status"].str.lower().isin([s.lower() for s in include_statuses])) |
+    (result_df1["K1 Assignment"] == "Final in prior year") |
+    (result_df1["K1 KEY"] == "Overall Total")
 ]
 
-
-
-
-## Export
-
-# Replace "- None -" with None in the DataFrames
 result_df2.replace("- None -", None, inplace=True)
 inverse_result_df2.replace("- None -", None, inplace=True)
 
-# Generate timestamp for today's date and time
 timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
 
-# Define the directory and file name with timestamp
-directory = "/Users/nicholasseta/Desktop/Demo File/Final Demo Files"
+# ----------------------------------------------------------------------------
+# 6. Export Results (Using relative file paths)
+# ----------------------------------------------------------------------------
+
+output_dir1 = os.path.join(".", "output", "FinalDemoFiles")
+os.makedirs(output_dir1, exist_ok=True)
 file_name = f"{timestamp}_demo_file_details.xlsx"
-output_file_path = os.path.join(directory, file_name)
+output_file_path = os.path.join(output_dir1, file_name)
 
-# Ensure the directory exists
-if not os.path.exists(directory):
-    os.makedirs(directory)
-
-# Save the DataFrames to an Excel file with two sheets
 with pd.ExcelWriter(output_file_path, engine="xlsxwriter") as writer:
     result_df2.to_excel(writer, sheet_name="full_demo_file", index=False)
     inverse_result_df2.to_excel(writer, sheet_name="removed", index=False)
 
 print(f"File saved to: {output_file_path}")
 
+# ----------------------------------------------------------------------------
+# K1 Import Section
+# ----------------------------------------------------------------------------
 
-#################################################################
-##K1 Import
-
-# Python filtering for Query 2 logic
-exclude_statuses = ['Final 2022', 'Final 2023', 'Do not Issue K-1', 'Never Issued K-1']
 result_df_k1_import = result_df1[
-    (~result_df1["Fund Status"].str.lower().isin([s.lower() for s in exclude_statuses])) &  # Exclude specific statuses
-    (result_df1["K1 Assignment"] != "Final in prior year") & # Additional condition
-    (result_df1["K1 KEY"] != "Overall Total") & # Additional condition
-    (pd.isnull(result_df1["K1 Identifier"]))  # Check for null values in 'K1 Identifier'
-
-
+    (~result_df1["Fund Status"].str.lower().isin([s.lower() for s in exclude_statuses])) &
+    (result_df1["K1 Assignment"] != "Final in prior year") &
+    (result_df1["K1 KEY"] != "Overall Total") &
+    (pd.isnull(result_df1["K1 Identifier"]))
 ]
 
+print("Result of K1 Import Filtering:")
+print(result_df_k1_import.head())
+print(result_df_k1_import.info())
 
-
-# Debugging: Display final filtered DataFrame
-print("Result of Python Filtering:")
-print(result_df2.head())
-print(result_df2.info())
-
-
-
-
-# Define the directory and file name with timestamp
-directory = "/Users/nicholasseta/Desktop/Demo File/K1 Import"
+output_dir2 = os.path.join(".", "output", "K1Import")
+os.makedirs(output_dir2, exist_ok=True)
 file_name = f"{timestamp}_K1_Import_File.csv"
-output_file_path2 = os.path.join(directory, file_name)
+output_file_path2 = os.path.join(output_dir2, file_name)
 
-# Ensure the directory exists
-if not os.path.exists(directory):
-    os.makedirs(directory)
-
-# Save the DataFrame (assuming result_df2 is defined)
 result_df_k1_import.to_csv(output_file_path2, index=False)
-
 print(f"File saved to: {output_file_path2}")
 
-###########################################################################
-
-
-# Condition to check for "- None -" and other null-like values
 none_values_condition = (
     result_df2["Address 1"].str.contains("- None -", na=False) |
     result_df2["Category"].str.contains("- None -", na=False) |
@@ -259,10 +269,8 @@ none_values_condition = (
     result_df2["Foreign-Domestic"].isnull()
 )
 
-# Filter the DataFrame based on the exception condition
 exceptions_df = result_df2[none_values_condition].copy()
 
-# Function to identify specific issues in each row
 def identify_issues(row):
     issues = []
     if pd.isnull(row["Address 1"]) or row["Address 1"] == "" or "- None -" in str(row["Address 1"]):
@@ -273,23 +281,13 @@ def identify_issues(row):
         issues.append("Foreign-Domestic is Blank or Invalid")
     return ", ".join(issues)
 
-# Apply the identify_issues function row by row
 exceptions_df["Issues"] = exceptions_df.apply(identify_issues, axis=1)
-
-# Reorder the columns to place "Issues" at the beginning
 exceptions_df = exceptions_df[["Issues"] + [col for col in exceptions_df.columns if col != "Issues"]]
 
-# Export the exceptions DataFrame
-timestamp = datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-directory = "/Users/nicholasseta/Desktop/Demo File/Exception Reports"
+output_dir3 = os.path.join(".", "output", "ExceptionReports")
+os.makedirs(output_dir3, exist_ok=True)
 file_name = f"{timestamp}_Exception_Report.csv"
-output_file_path = os.path.join(directory, file_name)
+output_file_path3 = os.path.join(output_dir3, file_name)
 
-# Ensure the directory exists
-os.makedirs(directory, exist_ok=True)
-
-# Save the DataFrame to a CSV file
-exceptions_df.to_csv(output_file_path, index=False)
-
-print(f"Exceptions file saved to: {output_file_path}")
-
+exceptions_df.to_csv(output_file_path3, index=False)
+print(f"Exceptions file saved to: {output_file_path3}")

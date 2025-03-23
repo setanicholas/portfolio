@@ -43,12 +43,20 @@ This project automates data extraction from NetSuite using OAuth-authenticated R
 
 ---
 
+
 ## 💼 Experience
+
+
+### **Senior Financial Systems Manager**  
+*Alumni Ventures* | SaaS & Professional Services | Private Equity-backed
+**January 2025 – Present**
+- **Reporting directly to CFO,** serve as the primary technical architect and finance systems lead for a $1.4B AUM venture capital firm, overseeing design, development, and deployment of NetSuite customizations and 3rd-party integrations.
+- Quickly onboard and **develop SuiteScript & Python customizations** (including fields, forms, and workflows) to integrate complex tax reporting processes, reducing manual workload by 300 hours annually.
+
 
 ### **ERP Team Lead**  
 *insightsoftware* | SaaS & Professional Services | Private Equity-backed  
-**September 2023 – Present**
-
+**September 2023 – January 2025**
 - **Orchestrated a scalable financial systems architecture** by eliminating technical debt, optimizing ERP integrations, and aligning them with long-term growth objectives.
 - **Spearheaded a cutting-edge data analytics pipeline** leveraging **Snowflake, Power BI**, and **Python** to deliver critical insights that empowered C-suite executives to make informed business decisions.
 - Develop ERP integration playbook for **8 M&A acquisitions**. These companies integrated into a NetSuite instance consisting of over 100 subsidiaries with multi-currency transactions across 20 foreign entities.
@@ -60,6 +68,7 @@ This project automates data extraction from NetSuite using OAuth-authenticated R
 
 - Rapidly gained mastery over a broad technology stack, including **Salesforce, Boomi**, and **OpenAir**, leading to **$500k+ in annual cost savings** by reducing external technical consultant dependency.
 - Enhanced internal systems, fostering a 40% improvement in project delivery timelines by optimizing workflows and prioritizing key projects in change control meetings.
+
 
 ### **Financial Analyst & NetSuite Administrator**  
 *Infinity Massage Chairs* | Wholesale Distribution  
@@ -75,14 +84,12 @@ This project automates data extraction from NetSuite using OAuth-authenticated R
 ### **MSc in Finance**  
 The University of Edinburgh | Edinburgh, Scotland  
 *Graduated with Honors*
-
 - **QS Top World University Ranking**
 - Varsity Soccer Player
 
 ### **BSBA in Finance and Management**  
 Saint Joseph’s College of Maine | Standish, Maine  
 *Graduated with Honors*
-
 - 4-Year Varsity Soccer Player  
 - Recipient of the **Unsung Hero Award**, later renamed in my honor
 
@@ -103,18 +110,13 @@ Saint Joseph’s College of Maine | Standish, Maine
 
 ---
 
-## 🔥 Passion Projects
+## 🔥 About Nick: Data, Finance, and Life in the Granite State
 
-I enjoy about leveraging data to drive decision-making at scale and using technology to solve complex financial and operational problems. In my free time, I contribute to open-source projects and mentor young professionals in the field of data analytics and ERP systems.
+I’m passionate about using data and technology to automate decision-making and tackle tricky financial and operational challenges. When I’m not working, I enjoy helping with the financial side of my family's construction company—which has grown over 4x in the past four years—and spending time playing soccer or exploring the mountains and coastline of my home state, New Hampshire. I love hanging out with my golden retriever, spending quality time with family and friends, and I'm always eager to chat about cars. I'm also excited to be getting married soon!
+
 
 ---
 
 ## 📫 Get in Touch
 
-*Please contact me through my professional email for additional details regarding my portfolio and references.*
-
----
-
-### **Disclaimer**  
-For privacy reasons, some personal details have been intentionally withheld. Full professional background and additional references are available upon request.
-"""
+*Please contact me through phone or email for additional details regarding my portfolio and references.*

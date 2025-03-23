@@ -24,18 +24,22 @@ The provided stored procedure (USP_BALANCESHEET) automates the creation of a com
 
 ---
 
-## 💻 Featured Code: 
-
-**Revenue Planning**
+**NetSuite Data Extraction Reporting**
 
 One recent contributions includes the development of a highly optimized python script for **Tax Reporting** used to streamline and automate reporting and team processes. I leveraged NetSuite RESTLets to gather real time data from NetSuite necessary for this project. 
 
-**File**: [`NetSuite_RESTLet_report.py`](https://github.com/setanicholas/portfolio/blob/main/assets/python/netsuite_restlet_report.py)
+**File**: [`netsuite_data_extraction_reporting.py`](https://github.com/setanicholas/portfolio/blob/main/assets/python/netsuite_data_extraction_reporting.py)
 
 This project automates data extraction from NetSuite using OAuth-authenticated REST APIs, transforms and analyzes the retrieved financial data using Pandas and SQL queries, and systematically generates Excel and CSV reports. It includes detailed exception handling and data validation, ensuring accurate reporting for investment portfolios and K-1 tax documentation.
 
 
+**NetSuite Data Extraction Reporting**
 
+One recent contributions includes the development of a highly optimized python script for **Tax Reporting** used to streamline and automate reporting and team processes. I leveraged NetSuite RESTLets to gather real time data from NetSuite necessary for this project. 
+
+**File**: [`netsuite_data_extraction_reporting.py`](https://github.com/setanicholas/portfolio/blob/main/assets/python/netsuite_data_extraction_reporting.py)
+
+This project automates data extraction from NetSuite using OAuth-authenticated REST APIs, transforms and analyzes the retrieved financial data using Pandas and SQL queries, and systematically generates Excel and CSV reports. It includes detailed exception handling and data validation, ensuring accurate reporting for investment portfolios and K-1 tax documentation.
 
 ---
 

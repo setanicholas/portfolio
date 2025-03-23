@@ -10,13 +10,13 @@
 
 ## 🚀 Professional Summary
 
-Nick has helped build and transform the Finance and IT functions three times, leveraging approaches refined over five years of experience in finance and technology. His experience spans companies ranging from a $1 million privately owned construction company to a $500 million-plus private equity-backed software company. Nick specializes in implementing processes that increase the capacity of IT and Finance to deliver cost-optimized solutions that enhance company valuation. His achievements include leading a team through 8 separate M&A integrations involving 2,000 employees and 20,000 customer accounts, reducing consultant spend by over $500,000 per year, configuring 2 data warehouses, and supporting the implementation of over 10 enterprise applications. Known for his technical expertise in both computer science and finance, Nick excels at creating financial systems that empower companies and deliver long-term value to stakeholders.
+Dynamic senior financial systems manager with a strong blend of financial acumen and technical expertise. Proven track record in leveraging advanced applications (NetSuite, Salesforce, Concur, Snowflake), integration platforms (Boomi, Celigo), and technical skills (SuiteScript, Python, SQL) to streamline operations and drive measurable business growth. Successfully led financial systems teams through 8 complex M&A integrations, 6 enterprise application implementations, and 3 data warehouse/BI initiatives, delivering significant efficiency gains and enhanced reporting capabilities.
 
 ---
 
 ## 💻 Featured Code: 
 
-**Balance Sheet** 
+**Recreated NetSuite Balance Sheet Leveraging Data Warehouse** 
 
 **File**: [`Balance_Sheet.sql`](https://github.com/setanicholas/portfolio/blob/main/assets/sql/BALANCE_SHEET.sql)
 
@@ -119,7 +119,7 @@ Saint Joseph’s College of Maine | Standish, Maine
 
 ## 🔥 Passion Projects
 
-I am passionate about leveraging data to drive decision-making at scale and using technology to solve complex financial and operational problems. In my free time, I contribute to open-source projects and mentor young professionals in the field of data analytics and ERP systems.
+I enjoy about leveraging data to drive decision-making at scale and using technology to solve complex financial and operational problems. In my free time, I contribute to open-source projects and mentor young professionals in the field of data analytics and ERP systems.
 
 ---
 

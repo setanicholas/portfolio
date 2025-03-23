@@ -4,7 +4,7 @@
 **Location**: Exeter, NH  
 **Email**: [seta.nicholas@gmail.com](mailto:seta.nicholas@gmail.com)  
 **GitHub**: [github.com/NicholasSeta](https://github.com/setanicholas)  
-**LinkedIn**: [LinkedIn](https://www.linkedin.com/in/nicholasseta)
+**LinkedIn**: [[linkedin.com/in/nicholasseta)](https://www.linkedin.com/in/nicholasseta)
 
 
 

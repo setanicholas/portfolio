@@ -93,7 +93,7 @@ This Python script automates the secure handling of PDF documents. Specifically,
 
 ## 🔥 About Nick: Data, Finance, and Life in the Granite State
 
-I’m passionate about using data and technology to automate decision-making and tackle tricky financial and operational challenges. When I’m not working, I enjoy spending time playing soccer or exploring the mountains and coastline of my home state, New Hampshire. I love hanging out with my golden retriever, spending quality time with family and friends, and I'm always eager to chat about cars. I'm also excited to be getting married soon!
+I absolutely love my job. I cannot believe I get to wake up everyday and use technology to help make businesses more efficent. I'm passionate about using data and technology to automate decision-making and tackle tricky financial and operational challenges. When I’m not working, I enjoy spending time playing soccer or exploring the mountains and coastline of my home state, New Hampshire. I love hanging out with my golden retriever, spending quality time with family and friends, and I'm always eager to chat about cars. I'm also excited to be getting married soon!
 
 ---
 

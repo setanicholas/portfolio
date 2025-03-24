@@ -26,7 +26,7 @@ Dynamic senior financial systems manager with a strong blend of financial acumen
 **The code provided below is my original work and has been reviewed to ensure all sensitive information and proprietary content have been removed.**
 
 
-**Recreated NetSuite Balance Sheet Leveraging Data Warehouse** 
+**SQL - Recreated NetSuite Balance Sheet Leveraging Data Warehouse** 
 
 **File**: [`balance_sheet_recreate.sql`](https://github.com/setanicholas/portfolio/blob/main/assets/sql/BALANCE_SHEET.sql)
 
@@ -34,21 +34,29 @@ The provided **stored procedure** (USP_BALANCESHEET) automates the creation of a
 
 ---
 
-**NetSuite Data Extraction Reporting**
-
-One recent contributions includes the development of a highly optimized python script used to streamline and automate tax reporting and team processes. I leveraged NetSuite **RESTLets** to gather real time data from NetSuite necessary for this project. 
+**Python - NetSuite Data Extraction Reporting**
 
 **File**: [`netsuite_data_extraction_reporting.py`](https://github.com/setanicholas/portfolio/blob/main/assets/python/netsuite_data_extraction_reporting.py)
+
+One recent contributions includes the development of a highly optimized python script used to streamline and automate tax reporting and team processes. I leveraged NetSuite **RESTLets** to gather real time data from NetSuite necessary for this project. 
 
 This project automates data extraction from NetSuite using OAuth-authenticated REST APIs, transforms and analyzes the retrieved financial data using Pandas and SQL queries, and systematically generates Excel and CSV reports. It includes detailed exception handling and data validation, ensuring accurate reporting for investment portfolios and tax documentation.
 
 ---
 
-**Tax Calculations in NetSuite**
+**Python - Mass PDF Encryption**
 
-This NetSuite User Event script automatically controls the activation of tax calculations on records based on creation status, field changes, and posting period conditions. Its value lies in streamlining tax processing, reducing manual effort, preventing calculation errors, and enhancing compliance and auditability through clear logging and automation.
+**File**: [`pdf_encryption.py`](https://github.com/setanicholas/portfolio/blob/main/assets/python/encryption.py)
+
+This Python script automates the secure handling of PDF documents. Specifically, it processes zipped folders containing multiple PDFs, decrypts and re-encrypts each PDF using individualized passwords sourced from an Excel spreadsheet, and renames the files accordingly for clarity and organization. The script leverages pandas for Excel file handling, PyPDF2 for PDF manipulation, and standard Python libraries for file management. It's particularly designed to preserve data integrity, manage sensitive information securely, and facilitate efficient bulk processing in document-heavy workflows.
+
+---
+
+**SuiteScript (2.X) Tax Calculations in NetSuite**
 
 **File**: [`disable_tax_calculations.js`](https://github.com/setanicholas/portfolio/blob/main/assets/suitescript/disable_tax_calculations.js)
+
+This NetSuite User Event script automatically controls the activation of tax calculations on records based on creation status, field changes, and posting period conditions. Its value lies in streamlining tax processing, reducing manual effort, preventing calculation errors, and enhancing compliance and auditability through clear logging and automation.
 
 This NetSuite User Event script automates control of tax calculation on records by setting a custom field (custbody_ava_disable_tax_calculation) based on specific business logic. When a record is newly created, it allows tax calculation by default. For edited records, the script checks if the posting period is open, and whether relevant fields (total amount or istaxable status) have changed; if so, it enables tax calculation. Detailed debug logs throughout provide transparency into its decision-making, ensuring accuracy and traceability in financial processing.
 

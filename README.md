@@ -14,7 +14,7 @@
 
 ## 🚀 Professional Summary
 
-Dynamic senior financial systems manager with a strong blend of financial acumen and technical expertise. Proven track record in leveraging advanced applications **(NetSuite, Salesforce, Concur, Snowflake)**, integration platforms **(Boomi, Celigo)**, and technical skills **(SuiteScript, Python, SQL, Power BI)** to streamline operations and drive measurable business growth. Successfully led financial systems teams through **8 complex M&A integrations**, **6 enterprise application implementations**, and **3 data warehouse/BI initiatives**, delivering significant efficiency gains and enhanced reporting capabilities.
+Dynamic senior financial systems manager with a strong blend of financial acumen and technical expertise. Proven track record in leveraging advanced applications **(NetSuite, Salesforce, Concur, Snowflake)**, integration platforms **(Boomi, Celigo)**, and technical skills **(SuiteScript, Python, SQL, Power BI)** to streamline operations and drive measurable business growth. Helped sucessfully lead financial systems teams through **8 complex M&A integrations**, **6 enterprise application implementations**, and **3 data warehouse/BI initiatives**, delivering significant efficiency gains and enhanced reporting capabilities.
 
 
 ---
@@ -25,6 +25,24 @@ Dynamic senior financial systems manager with a strong blend of financial acumen
 
 **The code provided below is my original work and has been reviewed to ensure all sensitive information and proprietary content have been removed.**
 
+
+**SuiteScript (2.x) Tax Calculations in NetSuite**
+
+**File**: [`disable_tax_calculations.js`](https://github.com/setanicholas/portfolio/blob/main/assets/suitescript/disable_tax_calculations.js)
+
+This NetSuite User Event script automatically controls the activation of tax calculations on records based on creation status, field changes, and posting period conditions. Its value lies in streamlining tax processing, reducing manual effort, preventing calculation errors, and enhancing compliance and auditability through clear logging and automation.
+
+This NetSuite User Event script automates control of tax calculation on records by setting a custom field (custbody_ava_disable_tax_calculation) based on specific business logic. When a record is newly created, it allows tax calculation by default. For edited records, the script checks if the posting period is open, and whether relevant fields (total amount or istaxable status) have changed; if so, it enables tax calculation. Detailed debug logs throughout provide transparency into its decision-making, ensuring accuracy and traceability in financial processing.
+
+---
+
+**SuiteScript (2.x) Search RESTLet**
+
+**File**: [`search_restlet.js`](https://github.com/setanicholas/portfolio/blob/main/assets/suitescript/search_restlet.js)
+
+This NetSuite RESTlet efficiently retrieves and transforms complex financial data by dynamically executing a predefined saved search and aggregating the results into a structured JSON format. By implementing error handling and pagination, it ensures scalability, reliability, and seamless integration with external systems or reporting tools.
+
+---
 
 **SQL - Recreated NetSuite Balance Sheet Leveraging Data Warehouse** 
 
@@ -51,18 +69,7 @@ This project automates data extraction from NetSuite using OAuth-authenticated R
 This Python script automates the secure handling of PDF documents. Specifically, it processes zipped folders containing multiple PDFs, decrypts and re-encrypts each PDF using individualized passwords sourced from an Excel spreadsheet, and renames the files accordingly for clarity and organization. The script leverages pandas for Excel file handling, PyPDF2 for PDF manipulation, and standard Python libraries for file management. It's particularly designed to preserve data integrity, manage sensitive information securely, and facilitate efficient bulk processing in document-heavy workflows.
 
 ---
-
-**SuiteScript (2.X) Tax Calculations in NetSuite**
-
-**File**: [`disable_tax_calculations.js`](https://github.com/setanicholas/portfolio/blob/main/assets/suitescript/disable_tax_calculations.js)
-
-This NetSuite User Event script automatically controls the activation of tax calculations on records based on creation status, field changes, and posting period conditions. Its value lies in streamlining tax processing, reducing manual effort, preventing calculation errors, and enhancing compliance and auditability through clear logging and automation.
-
-This NetSuite User Event script automates control of tax calculation on records by setting a custom field (custbody_ava_disable_tax_calculation) based on specific business logic. When a record is newly created, it allows tax calculation by default. For edited records, the script checks if the posting period is open, and whether relevant fields (total amount or istaxable status) have changed; if so, it enables tax calculation. Detailed debug logs throughout provide transparency into its decision-making, ensuring accuracy and traceability in financial processing.
-
-
 ---
-
 
 ## 🛠️ Core Competencies
 

@@ -1,5 +1,5 @@
 
-# Nicholas Seta - Finance & Technology Professional
+# Nick Seta - Finance & Technology Professional
 
 **Location**: Exeter, NH  
 **Email**: [seta.nicholas@gmail.com](mailto:seta.nicholas@gmail.com)  

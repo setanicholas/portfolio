@@ -86,7 +86,7 @@ This NetSuite User Event script automates control of tax calculation on records 
 
 ## 🔥 About Nick: Data, Finance, and Life in the Granite State
 
-I’m passionate about using data and technology to automate decision-making and tackle tricky financial and operational challenges. When I’m not working, I enjoy helping with the financial side of my family's construction company—which has grown over 4x in the past four years—and spending time playing soccer or exploring the mountains and coastline of my home state, New Hampshire. I love hanging out with my golden retriever, spending quality time with family and friends, and I'm always eager to chat about cars. I'm also excited to be getting married soon!
+I’m passionate about using data and technology to automate decision-making and tackle tricky financial and operational challenges. When I’m not working, I enjoy spending time playing soccer or exploring the mountains and coastline of my home state, New Hampshire. I love hanging out with my golden retriever, spending quality time with family and friends, and I'm always eager to chat about cars. I'm also excited to be getting married soon!
 
 ---
 

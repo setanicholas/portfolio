@@ -54,7 +54,7 @@ This NetSuite RESTlet efficiently retrieves and transforms complex financial dat
 
 **SQL - Recreate NetSuite Balance Sheet** 
 
-**File**: [`balance_sheet_recreate.sql`](https://github.com/setanicholas/portfolio/blob/main/assets/sql/BALANCE_SHEET.sql)
+**File**: [`balance_sheet_recreate.sql`](https://github.com/setanicholas/portfolio/blob/main/assets/sql/balance_sheet.sql)
 
 The provided **stored procedure** (USP_BALANCESHEET) leverages **CTE** to automate the creation of a comprehensive balance sheet summary by aggregating and standardizing financial data from NetSuite tables, including handling currency conversions and specific account types such as retained earnings. It calculates net income and retained earnings separately, integrating results through union operations to support detailed financial analysis across **subsidiaries** and fiscal periods. Additionally, it utilizes a **JavaScript** function (GetFiscalYear) to accurately determine fiscal years beginning in April, as NetSuite was not capable of showing the balance sheet necessary for our India subsidiaries. This was finaly presented in Power BI where our finance team could easily access.
 

@@ -102,10 +102,10 @@ This Python script automates the secure handling of PDF documents. Specifically,
 
 ## 🔥 About Nick: Data, Finance, and Life in the Granite State
 
-I absolutely love what I do. It sounds corny, but can't believe I get to wake up everyday and use technology to help make businesses smoother and more efficent. When I’m not working, I enjoy spending time playing soccer or exploring the mountains and coastline of my home state, New Hampshire. I love hanging out with my golden retriever, spending quality time with family and friends, and I'm always eager to chat about cars. I'm also excited to be getting married soon!
+When I’m not working, I enjoy spending time playing soccer or exploring the mountains and coastline of my home state, New Hampshire. I love hanging out with my golden retriever, spending quality time with family and friends, and I'm always eager to chat about cars. I'm also excited to be getting married soon!
 
 ---
 
 ## 🤙 Get in Touch
 
-*Please contact me through phone (603-770-9722) or email ([seta.nicholas@gmail.com](mailto:seta.nicholas@gmail.com)) for additional details regarding my portfolio and references.*
+*Feel free to contact me through phone (603-770-9722) or email ([seta.nicholas@gmail.com](mailto:seta.nicholas@gmail.com).*

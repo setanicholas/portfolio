@@ -14,10 +14,9 @@
 
 ## 🚀 Professional Summary
 
-I'm a senior financial systems manager with a strong track record of combining financial knowledge with technical expertise to optimize business performance. My experience includes extensive work with applications such as **NetSuite, Salesforce, Concur, and Snowflake**, along with integration platforms like **Boomi and Celigo**. I'm proficient in **technical** skills including **SuiteScript, Python, SQL, and Power BI**. These skills have helped me successfully lead financial systems teams through **8 mergers and acquisitions**, **5 enterprise application implementations**, and **2 data warehouse and business intelligence initiatives**. These projects have consistently delivered significant improvements in operational efficiency, enhanced reporting capabilities, and measurable business growth. They have also been a tremendous amount of fun!
+Dynamic senior financial systems manager with a strong blend of financial acumen and technical expertise. Proven track record in leveraging advanced applications **(NetSuite, Salesforce, Concur, Snowflake)**, integration platforms **(Boomi, Celigo)**, and technical skills **(SuiteScript, Python, SQL, Power BI)** to streamline operations and drive measurable business growth. Helped sucessfully lead financial systems teams through **8 M&A integrations**, **5 enterprise application implementations**, and **2 data warehouse/BI initiatives**, delivering significant efficiency gains and enhanced reporting capabilities.
 
 ---
-
 
 ## 💻 Featured Code: 
 

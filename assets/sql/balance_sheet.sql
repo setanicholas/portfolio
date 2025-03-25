@@ -1,3 +1,5 @@
+//Function to allow for April start of fiscal year. Can select between April or Jan FY in PBI.
+
 
 CREATE OR REPLACE FUNCTION GetFiscalYear(start_date DATE)
 RETURNS STRING
@@ -13,7 +15,7 @@ AS $$
     }
 $$;
 
-//
+// SQL
 
 CREATE OR REPLACE PROCEDURE PUBLIC.USP_BALANCESHEET_PORTFOLIO()
 RETURNS STRING

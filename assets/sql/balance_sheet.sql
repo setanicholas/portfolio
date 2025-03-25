@@ -1,14 +1,19 @@
---#region Portfolio Example - USD Conversion
-/*
-Fields to add:
-- document number
-- memo
-- posting period
-- hyperlink
-- customer
-- subsidiary
-- business unit
-*/
+
+CREATE OR REPLACE FUNCTION GetFiscalYear(start_date DATE)
+RETURNS STRING
+LANGUAGE JAVASCRIPT
+AS $$
+    var date = new Date(start_date);
+    var year = date.getFullYear();
+    var month = date.getMonth() + 1;
+    if (month > 3) {
+        return (year + '-' + (year + 1).toString());
+    } else {
+        return ((year - 1) + '-' + year.toString());
+    }
+$$;
+
+//
 
 CREATE OR REPLACE PROCEDURE PUBLIC.USP_BALANCESHEET_PORTFOLIO()
 RETURNS STRING
@@ -301,16 +306,3 @@ RETURN 'Table PUBLIC.T_BALANCESHEET_PORTFOLIO created successfully';
 END;
 $$;
 
-CREATE OR REPLACE FUNCTION GetFiscalYear(start_date DATE)
-RETURNS STRING
-LANGUAGE JAVASCRIPT
-AS $$
-    var date = new Date(start_date);
-    var year = date.getFullYear();
-    var month = date.getMonth() + 1;
-    if (month > 3) {
-        return (year + '-' + (year + 1).toString());
-    } else {
-        return ((year - 1) + '-' + year.toString());
-    }
-$$;

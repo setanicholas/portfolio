@@ -38,7 +38,7 @@ This NetSuite User Event script automates control of tax calculation on records 
 
 **SuiteScript - Scheduled - Monthly Subsidiary Sync**
 
-**File**: [`monthy_sub_sync.js`](https://github.com/setanicholas/portfolio/blob/main/assets/suitescript/monthy_sub_sync.js.js)
+**File**: [`monthy_sub_sync.js`](https://github.com/setanicholas/portfolio/blob/main/assets/suitescript/monthy_sub_sync.js)
 
 Created a NetSuite Scheduled Script that runs monthly to automatically update customer records with newly added subsidiaries, ensuring consistent data and preventing synchronization errors. Leveraged SuiteScript 2.0 search functionality to identify subsidiaries flagged for updates and systematically applied changes across customer records. 
 

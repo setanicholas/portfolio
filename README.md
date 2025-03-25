@@ -10,11 +10,11 @@
 
 ---
 
-
-
 ## 🚀 Professional Summary
 
-Dynamic senior financial systems manager with a strong blend of financial acumen and technical expertise. Proven track record in leveraging advanced applications **(NetSuite, Salesforce, Concur, Snowflake)**, integration platforms **(Boomi, Celigo)**, and technical skills **(SuiteScript, Python, SQL, Power BI)** to streamline operations and drive measurable business growth. Helped sucessfully lead financial systems teams through **8 M&A integrations**, **5 enterprise application implementations**, and **2 data warehouse/BI initiatives**, delivering significant efficiency gains and enhanced reporting capabilities.
+Senior financial systems manager with a strong blend of financial acumen, and technical expertise, and leadership skills. Proven track record in leveraging advanced applications **(NetSuite, Salesforce, Concur, Snowflake)**, integration platforms **(Boomi, Celigo)**, and technical skills **(SuiteScript, Python, SQL, Power BI)** to drive measurable business growth. I used this blend of skills to sucessfully lead financial systems teams through **8 M&A integrations**, **5 enterprise application implementations**, and **2 data warehouse/BI initiatives**, delivering significant efficiency gains and enhanced reporting capabilities. I'm also proud to have onboarded and trained the ERP team at ISW, as well as chaired the Change Control Board, which was the primary Business Systems project management tool at ISW. 
+
+Below is some examples of technical projects I've completed over my career. Would love to hear your feedback!
 
 ---
 
@@ -102,7 +102,7 @@ This Python script automates the secure handling of PDF documents. Specifically,
 
 ## 🔥 About Nick: Data, Finance, and Life in the Granite State
 
-I absolutely love what I do. I can't believe I get to wake up everyday and use technology to help make businesses smoother and more efficent. When I’m not working, I enjoy spending time playing soccer or exploring the mountains and coastline of my home state, New Hampshire. I love hanging out with my golden retriever, spending quality time with family and friends, and I'm always eager to chat about cars. I'm also excited to be getting married soon!
+I absolutely love what I do. It sounds corny, but can't believe I get to wake up everyday and use technology to help make businesses smoother and more efficent. When I’m not working, I enjoy spending time playing soccer or exploring the mountains and coastline of my home state, New Hampshire. I love hanging out with my golden retriever, spending quality time with family and friends, and I'm always eager to chat about cars. I'm also excited to be getting married soon!
 
 ---
 

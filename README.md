@@ -1,5 +1,5 @@
 
-# Nick Seta - Finance & Technology Professional
+# Nick Seta - Finance & Technology
 
 **Location**: Exeter, NH  
 **Email**: [seta.nicholas@gmail.com](mailto:seta.nicholas@gmail.com)  
@@ -26,7 +26,7 @@ Dynamic senior financial systems manager with a strong blend of financial acumen
 **The code provided below is my original work and has been reviewed to ensure all sensitive information and proprietary content have been removed.**
 
 
-| SuiteScript - User Event - (2.x) - Tax Calculations in NetSuite |
+**SuiteScript - User Event - Tax Calculations in NetSuite**
 
 **File**: [`disable_tax_calculations.js`](https://github.com/setanicholas/portfolio/blob/main/assets/suitescript/disable_tax_calculations.js)
 
@@ -36,7 +36,7 @@ This NetSuite User Event script automates control of tax calculation on records 
 
 ---
 
-**SuiteScript - Scheduled - (2.x) - Monthly Subsidiary Sync**
+**SuiteScript - Scheduled - Monthly Subsidiary Sync**
 
 **File**: [`monthy_sub_sync.js`](https://github.com/setanicholas/portfolio/blob/main/assets/suitescript/monthy_sub_sync.js.js)
 
@@ -44,7 +44,7 @@ Created a NetSuite Scheduled Script that runs monthly to automatically update cu
 
 ---
 
-**SuiteScript - RESTlet - (2.x) - Saved Search Aggrigation (To be called by a Python script)**
+**SuiteScript - RESTlet - Saved Search Aggrigation (To be called by a Python script)**
 
 **File**: [`search_restlet.js`](https://github.com/setanicholas/portfolio/blob/main/assets/suitescript/search_restlet.js)
 
@@ -59,7 +59,7 @@ This NetSuite RESTlet efficiently retrieves and transforms complex financial dat
 The provided **stored procedure** (USP_BALANCESHEET) automates the creation of a comprehensive balance sheet summary by aggregating and standardizing financial data from NetSuite tables, including handling currency conversions and specific account types such as retained earnings. It calculates net income and retained earnings separately, integrating results through union operations to support detailed financial analysis across subsidiaries and fiscal periods. Additionally, it utilizes a **JavaScript** function (GetFiscalYear) to accurately determine fiscal years beginning in April, making it ideal for managing global financial portfolios within ERP systems.
 
 ---
-**SQL - Salesforce Billing - Sub Invoice Line Fix** 
+**SQL - Salesforce Billing Sub Invoice Line Fix** 
 
 **File**: [`sub_invoice_lines.sql`](https://github.com/setanicholas/portfolio/blob/main/assets/sql/sub_invoice_lines.sql)
 
@@ -67,7 +67,7 @@ This script implements a stored procedure that creates and populates tables to r
 
 ---
 
-**Python - NetSuite Data Extraction Reporting**
+**Python - NetSuite Data Extraction for Reporting**
 
 **File**: [`netsuite_data_extraction_reporting.py`](https://github.com/setanicholas/portfolio/blob/main/assets/python/netsuite_data_extraction_reporting.py)
 
@@ -108,6 +108,6 @@ I absolutely love what I do. I can't believe I get to wake up everyday and use t
 
 ---
 
-## 📫 Get in Touch
+## 🤙 Get in Touch
 
 *Please contact me through phone (603-770-9722) or email ([seta.nicholas@gmail.com](mailto:seta.nicholas@gmail.com)) for additional details regarding my portfolio and references.*

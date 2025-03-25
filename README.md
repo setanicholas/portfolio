@@ -12,9 +12,9 @@
 
 ## 🚀 Professional Summary
 
-Senior financial systems manager with a strong blend of financial acumen, and technical expertise, and leadership skills. Proven track record in leveraging advanced applications **(NetSuite, Salesforce, Concur, Snowflake)**, integration platforms **(Boomi, Celigo)**, and technical skills **(SuiteScript, Python, SQL, Power BI)** to drive measurable business growth. I used this blend of skills to sucessfully lead financial systems teams through **8 M&A integrations**, **5 enterprise application implementations**, and **2 data warehouse/BI initiatives**, delivering significant efficiency gains and enhanced reporting capabilities. I'm also proud to have onboarded and trained the ERP team at ISW, as well as chaired the Change Control Board, which was the primary Business Systems project management tool at ISW. 
+Senior financial systems manager with a strong blend of financial acumen, technical expertise, and leadership skills. Proven track record in leveraging advanced applications **(NetSuite, Salesforce, Concur, Snowflake)**, integration platforms **(Boomi, Celigo)**, and technical skills **(SuiteScript, Python, SQL, Power BI)** to drive measurable business growth. I used this blend of skills to sucessfully lead financial systems teams through **8 M&A integrations**, **5 enterprise application implementations**, and **2 data warehouse/BI initiatives**, delivering significant efficiency gains and enhanced reporting capabilities. I'm also proud to have onboarded and **trained** the **ERP team** at ISW, as well as **chaired** the **Change Control Board**, which was the primary Business Systems project management tool at ISW. 
 
-Below is some examples of technical projects I've completed over my career. Would love to hear your feedback!
+While I take great pride in my soft skills—including being approachable, helpful, and consistently striving to learn—I'm equally proud of my technical accomplishments. Below are some examples of technical projects I've completed throughout my career. I'd greatly appreciate your feedback!
 
 ---
 

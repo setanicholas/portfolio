@@ -23,6 +23,7 @@ While I’m proud of my technical accomplishments, I also deeply value soft skil
 
 **The code provided below is my original work and has been reviewed to ensure all sensitive information and proprietary content have been removed.**
 
+---
 
 **SuiteScript - User Event - Tax Calculations in NetSuite**
 

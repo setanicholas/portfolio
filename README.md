@@ -12,10 +12,9 @@
 
 ## 🚀 Professional Summary
 
-Senior financial systems manager with a strong blend of financial acumen, technical expertise, and leadership skills. Proven track record in leveraging advanced applications **(NetSuite, Salesforce, Concur, Snowflake)**, integration platforms **(Boomi, Celigo)**, and technical skills **(SuiteScript, Python, SQL, Power BI)** to drive measurable business growth. I used this blend of skills to sucessfully lead financial systems teams through **8 M&A integrations**, **5 enterprise application implementations**, and **2 data warehouse/BI initiatives**, delivering significant efficiency gains and enhanced reporting capabilities. I'm also proud to have onboarded and **trained the ERP team** at ISW, as well as **chaired the Change Control Board**, which was the primary Business Systems project management tool at ISW. 
+I’m a senior financial systems manager with a background that blends financial insight, technical skills, and collaborative leadership. Throughout my career, I’ve had the chance to leverage various technologies, including advanced applications (NetSuite, Salesforce, Concur, Snowflake), integration platforms (Boomi, Celigo), and technical tools (SuiteScript, Python, SQL, Power BI) to help drive meaningful business growth. My experience includes successfully guiding financial systems teams through 8 mergers & acquisitions, 5 enterprise application implementations, and 2 data warehouse/business intelligence projects—all of which helped improve efficiency and reporting capabilities. Additionally, I enjoyed the opportunity to onboard and train the ERP team at ISW and chair the Change Control Board, which was central to managing our business systems projects.
 
-While I take great pride in my soft skills—including being approachable, helpful, and consistently striving to learn—I'm equally proud of my technical accomplishments. Below are some examples of technical projects I've completed throughout my career. I'd greatly appreciate your feedback!
-
+While I’m proud of my technical accomplishments, I also deeply value soft skills like being approachable, helpful, and eager to keep learning. Below, I’ve shared some examples of technical projects I’ve completed throughout my career. I’d genuinely appreciate hearing your feedback!
 ---
 
 ## 💻 Featured Code: 

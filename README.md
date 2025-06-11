@@ -29,9 +29,15 @@ While I’m proud of my technical accomplishments, I also deeply value soft skil
 
 **File**: [`disable_tax_calculations.js`](https://github.com/setanicholas/portfolio/blob/main/assets/suitescript/disable_tax_calculations.js)
 
-This NetSuite User Event script automatically controls the activation of tax calculations on records based on creation status, field changes, and posting period conditions. Its value lies in streamlining tax processing, reducing manual effort, preventing calculation errors, and enhancing compliance and auditability through clear logging and automation.
+This NetSuite User Event script automates when tax calculation is enabled on transactions by setting a custom field based on whether the record is new, the posting period is open, or key values like total amount or taxability have changed. It reduces manual intervention and improves financial accuracy by enforcing consistent tax logic and logging the decision process for auditability.
 
-This NetSuite User Event script automates control of tax calculation on records by setting a custom field (custbody_ava_disable_tax_calculation) based on specific business logic. When a record is newly created, it allows tax calculation by default. For edited records, the script checks if the posting period is open, and whether relevant fields (total amount or istaxable status) have changed; if so, it enables tax calculation. Detailed debug logs throughout provide transparency into its decision-making, ensuring accuracy and traceability in financial processing.
+---
+
+**SuiteScript - Scheduled - Monthly Subsidiary Sync**
+
+**File**: [`exit_workflow.js`](https://github.com/setanicholas/portfolio/blob/main/assets/suitescript/exit_workflow.js)
+
+This NetSuite User Event Script automates the order-to-cash process when a sales order is created and marked with a specific trigger value. It automatically creates an item fulfillment, generates an invoice, and applies a customer payment—all while handling subsidiary-specific settings and fallback logic—then updates the sales order to reflect completion.
 
 ---
 
@@ -55,7 +61,7 @@ This NetSuite RESTlet efficiently retrieves and transforms complex financial dat
 
 **File**: [`balance_sheet_recreate.sql`](https://github.com/setanicholas/portfolio/blob/main/assets/sql/balance_sheet.sql)
 
-The provided **stored procedure** (USP_BALANCESHEET) leverages **CTE** to automate the creation of a comprehensive balance sheet summary by aggregating and standardizing financial data from NetSuite tables, including handling currency conversions and specific account types such as retained earnings. It calculates net income and retained earnings separately, integrating results through union operations to support detailed financial analysis across **subsidiaries** and fiscal periods. Additionally, it utilizes a **JavaScript** function (GetFiscalYear) to accurately determine fiscal years beginning in April, as NetSuite was not capable of showing the balance sheet necessary for our India subsidiaries. This was finaly presented in Power BI where our finance team could easily access.
+This stored procedure (USP_BALANCESHEET) generates a consolidated balance sheet by aggregating NetSuite financial data, applying currency conversions, and handling special account logic like retained earnings and net income using CTEs and unions. It overcomes NetSuite's reporting limitations—especially for India subsidiaries with April fiscal year starts—by integrating with Power BI for accessible and accurate financial reporting.
 
 ---
 **SQL - Salesforce Billing Sub Invoice Line Fix** 

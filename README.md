@@ -29,7 +29,7 @@ While I’m proud of my technical accomplishments, I also deeply value soft skil
 
 **File**: [`disable_tax_calculations.js`](https://github.com/setanicholas/portfolio/blob/main/assets/suitescript/disable_tax_calculations.js)
 
-This NetSuite User Event script automates when tax calculation is enabled on transactions by setting a custom field based on whether the record is new, the posting period is open, or key values like total amount or taxability have changed. It reduces manual intervention and improves financial accuracy by enforcing consistent tax logic and logging the decision process for auditability.
+This User Event script runs when tax calculation is enabled on transactions by setting a custom field based on whether the record is new, the posting period is open, or key values like total amount or taxability have changed. It reduces manual intervention and improves financial accuracy by enforcing consistent tax logic and logging the decision process for auditability.
 
 ---
 
@@ -37,7 +37,7 @@ This NetSuite User Event script automates when tax calculation is enabled on tra
 
 **File**: [`exit_workflow.js`](https://github.com/setanicholas/portfolio/blob/main/assets/suitescript/exit_workflow.js)
 
-This NetSuite User Event Script automates the order-to-cash process when a sales order is created and marked with a specific trigger value. It automatically creates an item fulfillment, generates an invoice, and applies a customer payment—all while handling subsidiary-specific settings and fallback logic—then updates the sales order to reflect completion.
+This User Event Script automates the order-to-cash process when a sales order is created and marked with a specific trigger value. It automatically creates an item fulfillment, generates an invoice, and applies a customer payment—all while handling subsidiary-specific settings and fallback logic—then updates the sales order to reflect completion.
 
 ---
 

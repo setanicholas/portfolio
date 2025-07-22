@@ -24,7 +24,7 @@ I’m a senior financial systems manager with a background that blends finance, 
 
 **SuiteScript - Client Side - Dynamic List Select**
 
-**File**: [`disable_tax_calculations.js`](https://github.com/setanicholas/portfolio/blob/main/assets/suitescript/disable_tax_calculations.js)
+**File**: [`dynamic_list_select.js`](https://github.com/setanicholas/portfolio/blob/main/assets/suitescript/dynamic_list_select.js)
 
 This client side script allows the user to select given fields from a drop down list based on a parent field.
 

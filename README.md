@@ -12,9 +12,7 @@
 
 ## 🚀 Professional Summary
 
-I’m a senior financial systems manager with a background that blends finance, technical skills, and collaborative leadership. Throughout my career, I’ve had the chance to leverage various technologies, including advanced applications (NetSuite, Salesforce, Concur, Snowflake), integration platforms (Boomi, Celigo), and technical tools (SuiteScript, Python, SQL, Power BI) to help drive meaningful business growth. My experience includes successfully guiding financial systems teams through 8 mergers & acquisitions, 6 enterprise application implementations, and 3 data warehouse/business intelligence projects—all of which helped improve efficiency and reporting capabilities. Additionally, I enjoyed the opportunity to onboard and train the ERP team at ISW and chair the Change Control Board, which was central to managing our business systems projects.
-
-While I’m proud of my technical accomplishments, I also deeply value soft skills like being approachable, helpful, and eager to keep learning. Below, I’ve shared some examples of technical projects I’ve completed throughout my career. I’d genuinely appreciate hearing your feedback!
+I’m a senior financial systems manager with a background that blends finance, technical skills, and collaborative leadership. Throughout my career, I’ve had the chance to leverage various technologies, including advanced applications (NetSuite, Salesforce, Concur, Snowflake), integration platforms (Boomi, Celigo), and technical tools (SuiteScript, Python, SQL, Power BI). 
 
 ---
 
@@ -22,6 +20,13 @@ While I’m proud of my technical accomplishments, I also deeply value soft skil
 
 
 **The code provided below is my original work and has been reviewed to ensure all sensitive information and proprietary content have been removed.**
+
+
+**SuiteScript - Client Side - Dynamic List Select**
+
+**File**: [`disable_tax_calculations.js`](https://github.com/setanicholas/portfolio/blob/main/assets/suitescript/disable_tax_calculations.js)
+
+This client side script allows the user to select given fields from a drop down list based on a parent field.
 
 ---
 

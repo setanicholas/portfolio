@@ -68,7 +68,7 @@ def scan_book_capital(fp):
 
 
 def main():
-    root = "/Users/nickseta/Library/CloudStorage/Box-Box/Tax/2024"
+    root = "folder/BOX_TAX_FOLDER"
 
     # 1) Gather all matching workbooks/workpapers, skipping any file containing 'BDO'
     files = []

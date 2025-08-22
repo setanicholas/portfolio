@@ -12,7 +12,7 @@
 
 ## Professional Summary
 
-Senior financial systems manager with a background that blends finance, AI adoption, technical skills, and collaborative leadership. Throughout my career, I’ve had the chance to leverage various technologies, including advanced applications (NetSuite, Salesforce, Concur, Snowflake), integration platforms (Boomi, Celigo), and technical tools (SuiteScript, Python, SQL, Power BI). 
+Senior financial systems manager with a background that blends finance, AI adoption, technical skills, and collaborative leadership. Throughout my career, I’ve had the chance to leverage various technologies, including advanced applications (NetSuite, Salesforce, Kantata, Concur, Snowflake, Vertica), integration platforms (Boomi, Celigo), and technical tools (SuiteScript, Python, SQL, Power BI). I've also been fortunate to experience differenct industries and corporate structures. Including a family owned Wholesale Distribution company, an M&A driven SaaS and Professional Services company, and a rapidely growing Venture Capital firm. This has allowed me touch almost every aspect of NetSuite and business systems. 
 
 ---
 
@@ -58,7 +58,7 @@ Created a NetSuite Scheduled Script that runs monthly to automatically update cu
 
 **File**: [`search_restlet.js`](https://github.com/setanicholas/portfolio/blob/main/assets/suitescript/search_restlet.js)
 
-This NetSuite RESTlet efficiently retrieves and transforms complex financial data by dynamically executing a predefined saved search and aggregating the results into a structured JSON format. By implementing error handling and pagination, it ensures scalability, reliability, and seamless integration with external systems or reporting tools.
+This NetSuite RESTlet retrieves and transforms complex financial data by dynamically executing a predefined saved search and aggregating the results into a structured JSON format. By implementing error handling and pagination, it ensures scalability, reliability, and seamless integration with external systems or reporting tools.
 
 ---
 
@@ -66,7 +66,7 @@ This NetSuite RESTlet efficiently retrieves and transforms complex financial dat
 
 **File**: [`balance_sheet_recreate.sql`](https://github.com/setanicholas/portfolio/blob/main/assets/sql/balance_sheet.sql)
 
-This stored procedure (USP_BALANCESHEET) generates a consolidated balance sheet by aggregating NetSuite financial data, applying currency conversions, and handling special account logic like retained earnings and net income using CTEs and unions. It overcomes NetSuite's reporting limitations—especially for India subsidiaries with April fiscal year starts—by integrating with Power BI for accessible and accurate financial reporting.
+This stored procedure (USP_BALANCESHEET) generates a consolidated balance sheet by aggregating NetSuite financial data, applying currency conversions, and handling special account logic like retained earnings and net income using CTEs and unions. It overcomes NetSuite's reporting limitations—especially for India subsidiaries with April fiscal year starts—by integrating with Power BI for accessible and accurate financial reporting. This balance sheet has proven useful so many times, it's hard to count. 
 
 ---
 **SQL - Salesforce Billing Sub Invoice Line Fix** 
@@ -115,6 +115,8 @@ This Python script automates the secure handling of PDF documents. Specifically,
 ## About Nick: Data, Finance, and Life in the Seacoast
 
 As a retired college soccer player, I love to put on the cleats and run around once a week playing men's league. To try to stay in shape, I spend most weekends hiking the mountains or running the coastline of my home state, New Hampshire. My golden retriever, Breaker, also loves to get me outside and on the trails. Of course, I love spending quality time with family and friends, and I'm always eager to chat about cars. I'm also excited to be getting married soon!
+
+If you made it this far, thanks for reading. And I hope you have a nice day!
 
 ---
 

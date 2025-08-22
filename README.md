@@ -10,13 +10,13 @@
 
 ---
 
-## 🚀 Professional Summary
+## Professional Summary
 
 Senior financial systems manager with a background that blends finance, AI adoption, technical skills, and collaborative leadership. Throughout my career, I’ve had the chance to leverage various technologies, including advanced applications (NetSuite, Salesforce, Concur, Snowflake), integration platforms (Boomi, Celigo), and technical tools (SuiteScript, Python, SQL, Power BI). 
 
 ---
 
-## 💻 Featured Code: 
+## Featured Code: 
 
 
 **The code provided below is my original work and has been reviewed to ensure all sensitive information and proprietary content have been removed.**
@@ -98,7 +98,7 @@ This Python script automates the secure handling of PDF documents. Specifically,
 ---
 ---
 
-## 🛠️ Core Competencies
+## Core Competencies
 
 - **Financial Systems & ERP**
   NetSuite Architecture & Optimization, Saleforce CPQ & Billing, System Integration
@@ -112,9 +112,9 @@ This Python script automates the secure handling of PDF documents. Specifically,
 ---
 
 
-## 🔥 About Nick: Data, Finance, and Life in the Granite State
+## About Nick: Data, Finance, and Life in the Seacoast
 
-I enjoy spending time playing soccer or exploring the mountains and coastline of my home state, New Hampshire. I love hanging out with my golden retriever, spending quality time with family and friends, and I'm always eager to chat about cars. I'm also excited to be getting married soon!
+As a retired college soccer player, I love to put on the cleats and run around once a week playing men's league. To try to stay in shape, I spend most weekends hiking the mountains or running the coastline of my home state, New Hampshire. My golden retriever, Breaker, also loves to get me outside and on the trails. Of course, I love spending quality time with family and friends, and I'm always eager to chat about cars. I'm also excited to be getting married soon!
 
 ---
 

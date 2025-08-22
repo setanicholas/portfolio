@@ -12,7 +12,7 @@
 
 ## 🚀 Professional Summary
 
-Senior financial systems manager with a background that blends finance, technical skills, and collaborative leadership. Throughout my career, I’ve had the chance to leverage various technologies, including advanced applications (NetSuite, Salesforce, Concur, Snowflake), integration platforms (Boomi, Celigo), and technical tools (SuiteScript, Python, SQL, Power BI). 
+Senior financial systems manager with a background that blends finance, AI adoption, technical skills, and collaborative leadership. Throughout my career, I’ve had the chance to leverage various technologies, including advanced applications (NetSuite, Salesforce, Concur, Snowflake), integration platforms (Boomi, Celigo), and technical tools (SuiteScript, Python, SQL, Power BI). 
 
 ---
 

@@ -12,7 +12,7 @@
 
 ## Professional Summary
 
-Senior financial systems manager with a background that blends finance, AI adoption, technical skills, and collaborative leadership. Throughout my career, I’ve had the chance to leverage various technologies, including advanced applications (NetSuite, Salesforce, Kantata, Concur, Snowflake, Vertica), integration platforms (Boomi, Celigo), and technical tools (SuiteScript, Python, SQL, Power BI). I've also been fortunate to experience differenct industries and corporate structures. Including a family owned Wholesale Distribution company, an M&A driven SaaS and Professional Services company, and a rapidely growing Venture Capital firm. This has allowed me touch almost every aspect of NetSuite and business systems. 
+Senior financial systems manager with a background that blends finance, AI adoption, technical skills, and collaborative leadership. Throughout my career, I’ve had the chance to leverage various technologies, including advanced applications (NetSuite, Salesforce, Kantata, Concur, Snowflake, Vertica), integration platforms (Boomi, Celigo), and technical tools (SuiteScript, Python, SQL, Power BI). I've also been fortunate to experience differenct industries and corporate structures. Including a family owned Wholesale Distribution company, an M&A driven SaaS and Professional Services company, and a rapidely growing Venture Capital firm. This has allowed me touch almost every aspect of NetSuite and business systems in a relatively short amount of time. 
 
 ---
 

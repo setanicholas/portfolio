@@ -112,7 +112,7 @@ This Python script automates the secure handling of PDF documents. Specifically,
 ---
 
 
-## About Nick: Data, Finance, and Life in the Seacoast
+## About Nick: Finance, Systems, and Life in the Seacoast
 
 As a retired college soccer player, I love to put on the cleats and run around once a week playing men's league. To try to stay in shape, I spend most weekends hiking the mountains or running the coastline of my home state, New Hampshire. My golden retriever, Breaker, also loves to get me outside and on the trails. Of course, I love spending quality time with family and friends, and I'm always eager to chat about cars. I'm also excited to be getting married soon!
 

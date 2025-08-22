@@ -12,7 +12,7 @@
 
 ## 🚀 Professional Summary
 
-I’m a senior financial systems manager with a background that blends finance, technical skills, and collaborative leadership. Throughout my career, I’ve had the chance to leverage various technologies, including advanced applications (NetSuite, Salesforce, Concur, Snowflake), integration platforms (Boomi, Celigo), and technical tools (SuiteScript, Python, SQL, Power BI). 
+Senior financial systems manager with a background that blends finance, technical skills, and collaborative leadership. Throughout my career, I’ve had the chance to leverage various technologies, including advanced applications (NetSuite, Salesforce, Concur, Snowflake), integration platforms (Boomi, Celigo), and technical tools (SuiteScript, Python, SQL, Power BI). 
 
 ---
 
@@ -114,7 +114,7 @@ This Python script automates the secure handling of PDF documents. Specifically,
 
 ## 🔥 About Nick: Data, Finance, and Life in the Granite State
 
-When I’m not working, I enjoy spending time playing soccer or exploring the mountains and coastline of my home state, New Hampshire. I love hanging out with my golden retriever, spending quality time with family and friends, and I'm always eager to chat about cars. I'm also excited to be getting married soon!
+I enjoy spending time playing soccer or exploring the mountains and coastline of my home state, New Hampshire. I love hanging out with my golden retriever, spending quality time with family and friends, and I'm always eager to chat about cars. I'm also excited to be getting married soon!
 
 ---
 
